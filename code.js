@@ -8,7 +8,7 @@ function reload() {
         document.getElementById('frame2').src = 'https://www.morfix.co.il/' + argument;
         return true;
     } else {
-        alert("not long enough");
+        alert("Text field is blank");
         return false;
     }    
 }
