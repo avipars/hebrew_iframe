@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Hebrew Sites in iframe</title>
     <meta name="og:title" property="og:title" content="Hebrew Sites in iframe">
     <meta name="description" content="Run two websites in iFrame to save time">
     <link rel="stylesheet" href="styles.css">
-    <script src="code.js" type="text/javascript"></script>
+    <!-- <script src="code.js" type="text/javascript"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <h1> Hebrew Sites Demo</h1>
+    <form id="myForm" class="example">
+        <input id="input" type="text" placeholder="Search.." name="search" autocomplete="on">
+        <button type="button" onclick="javascript:reload()"><i class="fa fa-refresh"></i></button>
+    </form>
+    <!-- <button type="submit" id="reload" onclick="javascript:reload()"> Reload<i class="fa fa-refresh" ></i></button> -->
+
     <div class="thumbnail" id="thumbnail1">
-        <iframe src="https://context.reverso.net/translation/hebrew-english" 
-        frameborder="0" scrolling="no" height="900"
-            width="50%" align="left"> </iframe>
+        <iframe id="frame1" src="https://context.reverso.net/translation/hebrew-english" frameborder="0" scrolling="no"
+            height="900" width="50%" align="left"> </iframe>
     </div>
     <div class="thumbnail" id="thumbnail2">
-        <iframe src="https://www.morfix.co.il/" 
-        frameborder="0" scrolling="no" height="900" width="50%" align="right">
+        <iframe id="frame2" src="https://www.morfix.co.il/" frameborder="0" scrolling="no" height="900" width="50%"
+            align="right">
         </iframe>
     </div>
 </body>
 
+<script type="text/javascript">
+    function reload() {
+        var first = document.getElementById("input").value;
+        var argument = first;
+        console.log(first);
+        if (first.length > 0) {
+            document.getElementById('frame1').src =
+                'https://context.reverso.net/translation/hebrew-english/' + argument;
+            document.getElementById('frame2').src = 'https://www.morfix.co.il/' + argument;
+        } else {
+            alert("not long enough");
+        }
+
+    }
+</script>
 </html>
