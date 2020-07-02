@@ -1,5 +1,5 @@
 function reload() {
-    var first = document.getElementById("input").value;
+    var first = document.getElementById('input').value;
     var argument = first;
     console.log(first);
     if (first.length > 0) {
@@ -8,7 +8,7 @@ function reload() {
         document.getElementById('frame2').src = 'https://www.morfix.co.il/' + argument;
         return true;
     } else {
-        alert("Text field is blank");
+        alert('Text field is blank');
         return false;
     }
 }
@@ -25,8 +25,9 @@ function fnsearch() {
 }
 
 function hideAdReverso() {
-    var iframe = document.getElementById("frame1");
-    var elmnt = iframe.contentWindow.document.getElementById("home-badges-background");
-    elmnt.style.display = "none";
+    console.log('iFrame loaded successfully');
+    console.log('Go donate - https://www.buymeacoffee.com/aviparshan');
+    var iframe = document.getElementById('frame1');
+    var elmnt = iframe.contentWindow.document.getElementById('home-badges-background');
+    elmnt.style.display = 'none';
 }
-
