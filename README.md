@@ -9,4 +9,4 @@ This allows you to compare results and varying transaltion quality between the t
 
 
 
-<a href="https://www.buymeacoffee.com/aviparshan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/aviparshan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" style="height: 10px !important;width: 80px !important;" ></a>
