@@ -26,7 +26,6 @@
     <link rel="manifest" href="img/site.webmanifest">
 </head>
 <body>
-    <div id="sticky">
         <form id="myForm" class="formy" onkeypress="fnsearch()" onsubmit="javascript:reload()">
             <input id="input" type="text" placeholder="Search.." name="search" spellcheck="true" autocomplete="on"
                 onkeyup="javascript:fnsearch()">
@@ -36,7 +35,7 @@
     <div id="content">
         <div class="thumbnail" id="thumbnail1">
             <iframe id="frame1" src="https://context.reverso.net/translation/hebrew-english" frameborder="0"
-                scrolling="no" height="900" width="50%" align="left"> </iframe>
+                scrolling="no" height="900" width="50%" align="left" onload="hideAdReverso()"> </iframe>
         </div>
         <div class="thumbnail" id="thumbnail2">
             <iframe id="frame2" src="https://www.morfix.co.il/" frameborder="0" scrolling="no" height="900" width="50%"
@@ -45,8 +44,8 @@
         </div>
     </div>
     <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="aviparshan"
-        data-description="Support me on Buy me a coffee!"
-        data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#FF813F" data-position="right"
+        data-description="Support this project on Buy me a coffee!"
+        data-message="Thank you for visiting. It would mean a lot if you can support the project!" data-color="#FF813F" data-position="right"
         data-x_margin="18" data-y_margin="18"></script>
 </body>
 </html>
