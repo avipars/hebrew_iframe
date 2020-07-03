@@ -1,14 +1,22 @@
 body {
-    margin: 0;
+  margin: 0;
+  min-height: 400px;
+  margin-bottom: 10px;
+  clear: both;
 }
-.sticky{
+
+.sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+footer {
+  height: 10px;
+}
+
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
+.sticky+.content {
   padding-top: 60px;
 }
 
@@ -18,39 +26,40 @@ body {
 }
 
 * {
-    box-sizing: border-box;
-  }
-  
-    /* Style the search field */
-    form.formy input[type=text] {
-        padding: 10px;
-        font-size: 17px;
-        border: 1px solid grey;
-        float: left;
-        width: 80%;
-        background: #f1f1f1;
-      }
-      
-      /* Style the submit button */
-      form.formy button {
-        float: left;
-        width: 20%;
-        padding: 10px;
-        background: #2196F3;
-        color: white;
-        font-size: 17px;
-        border: 1px solid grey;
-        border-left: none; /* Prevent double borders */
-        cursor: pointer;
-      }
-      
-      form.formy button:hover {
-        background: #0b7dda;
-      }
-      
-      /* Clear floats */
-      form.formy::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.formy input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.formy button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.formy button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.formy::after {
+  content: "";
+  clear: both;
+  display: table;
+}

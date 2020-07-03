@@ -10,43 +10,71 @@
      I designed this to save myself time. ">
     <meta name="og:description" content="This site runs morfix and reverso context side by side to see results with a single search.
      I designed this to save myself time. ">
-    <meta property="og:image"
-        content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg" />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <link rel="stylesheet" href="style/styles.css">
-    <script src="code/code.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="og:url" content="https://avipars.github.io/hebrew_iframe/index.html">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@unitmeasure" />
     <meta name="twitter:creator" content="@aviinfinity" />
-    <meta property="og:image" content="/img/hebrew_letters.jpg" />
+    <meta property="og:image" content="https://avipars.github.io/hebrew_iframe/img/hebrew_letters.jpg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="img/site.webmanifest">
-    <meta name="viewport" content="width=400"/>
+
+    <meta name="viewport" content="width=400" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="code/code.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-        <form id="myForm" class="formy" onkeypress="fnsearch()" onsubmit="javascript:reload()">
-            <input id="input" type="text" placeholder="Search.." name="search" spellcheck="true" autocomplete="on"
-                onkeyup="javascript:fnsearch()">
-            <button type="button" id="button" onclick="javascript:reload()"><i class="fa fa-search"></i></button>
-        </form>
+    <form id="myForm" class="formy" onkeypress="fnsearch()" onsubmit="javascript:reload()">
+        <input id="input" type="text" placeholder="Search..." name="search" spellcheck="true" autocomplete="on"
+            onkeyup="javascript:fnsearch()">
+        <button type="button" id="button" onclick="javascript:reload()"><i class="fa fa-search"></i></button>
+    </form>
     </div>
     <div id="content">
+        <!-- onload="hideAdReverso()" -->
         <div class="thumbnail" id="thumbnail1">
             <iframe id="frame1" src="https://context.reverso.net/translation/hebrew-english" frameborder="0"
-                scrolling="no" height="900" width="50%" align="left" onload="hideAdReverso()"> </iframe>
+                scrolling="no" height="950" width="50%" align="left"> </iframe>
         </div>
         <div class="thumbnail" id="thumbnail2">
-            <iframe id="frame2" src="https://www.morfix.co.il/" frameborder="0" scrolling="no" height="900" width="50%"
+            <iframe id="frame2" src="https://www.morfix.co.il/" frameborder="0" scrolling="no" height="950" width="50%"
                 align="right">
             </iframe>
         </div>
     </div>
     <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="aviparshan"
         data-description="Support this project on Buy me a coffee!"
-        data-message="Thank you for visiting. It would mean a lot if you can support the project!" data-color="#FF813F" data-position="right"
-        data-x_margin="18" data-y_margin="18"></script>
+        data-message="Thank you for visiting. It would mean a lot if you can support the project!" data-color="#FF813F"
+        data-position="right" data-x_margin="18" data-y_margin="18"></script>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+        <div class="container">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">&copy; <a href="https://www.aviparshan.com/">
+                    AviParshan.com</a>
+                2019-<script>
+                    document.write(new Date().getFullYear())
+                </script>. All Rights Reserved.</p>
+                <!-- Copyright -->
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://www.unitmeasure.xyz" target="_blank">unitMeasure App</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/avipars/hebrew_iframe" target="_blank">Github Page</a>
+                    </li>
+
+                </ul>
+            </div>
+
+    </footer>
+    <!-- Footer -->
 </body>
+
 </html>

@@ -1,12 +1,11 @@
 # hebrew_iframe
 
-
-https://avipars.github.io/hebrew_iframe/index.html
+Live site: https://avipars.github.io/hebrew_iframe/index.html
 
 Split screen view of Morfix and Reverso Context using iFrames. There is a unified search bar that will update both sites at the same time. 
 
-This allows you to compare results and varying transaltion quality between the two platforms. 
-
+This allows you to compare results and varying translation quality between the two platforms. 
+Feel free to open an issue and make a pull request with new features. 
 
 ![image](https://user-images.githubusercontent.com/5733247/86407277-63f40a00-bcbd-11ea-928c-50b1cd8b3a50.png)
 
