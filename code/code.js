@@ -22,11 +22,3 @@ function fnsearch() {
         return false;
     }
 }
-
-// function hideAdReverso() {
-//     console.log('iFrame loaded successfully');
-//     console.log('Go donate - https://www.buymeacoffee.com/aviparshan');
-//     var iframe = document.getElementById('frame1');
-//     var elmnt = iframe.contentWindow.document.getElementById('home-badges-background');
-//     elmnt.style.display = 'none';
-// }
