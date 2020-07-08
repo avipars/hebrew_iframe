@@ -1,27 +1,33 @@
 # Hebrew Learning Resources
 
-* Our site - https://avipars.github.io/hebrew_iframe/index.html
+- [Our site](https://avipars.github.io/hebrew_iframe/index.html)
 
-  Combined search of Morfix and Reverso Context Hebrew-English Dictionary
-  
-* Duolingo - https://www.duolingo.com/course/he/en/Learn-Hebrew
+  Combined search of Morfix and Reverso Context HebrewEnglish Dictionary
+
+- [Duolingo](https://www.duolingo.com/course/he/en/LearnHebrew)
 
   Hebrew Course
 
-* Pealim - https://www.pealim.com/
+- [Hebrew Language Keyboard Stickers](https://www.amazon.com/s/ref=as_li_ss_tl?k=hebrew+keyboard+stickerts&dc&ref=a9_asc_1&linkCode=ll2&tag=aviparshan20&linkId=8b62928a6261136d2695cc4e6aff0529&language=en_US)
 
-  Conjunctions and grammer 
-  
-* Milog - https://milog.co.il/
+- [YAEL Test Resources Group](https://www.facebook.com/groups/yaeltest/)
 
-  Hebrew-Hebrew Dictionary 
-  
-* Hebrew Language Academy - https://hebrew-academy.org.il/
-  
+  Hebrew comprehension test study group
+
+- [Pealim](https://www.pealim.com/)
+
+  Conjunctions and grammer
+
+- [Milog](https://milog.co.il/)
+
+  HebrewHebrew Dictionary
+
+- [Hebrew Language Academy](https://hebrewacademy.org.il/)
+
   Official academy of the hebrew language
-  
-* Forvo - https://forvo.com/ 
+
+- [Forvo](https://forvo.com/)
 
   Pronounciations
-  
-* Snopi - http://www.snopi.com/index.aspx
+
+- [Snopi](http://www.snopi.com/index.aspx)
