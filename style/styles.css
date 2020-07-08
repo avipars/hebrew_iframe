@@ -35,8 +35,15 @@ form.formy input[type="text"] {
   font-size: 17px;
   border: 1px solid grey;
   float: left;
-  width: 70%;
+  width: 40%;
   background: #f1f1f1;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+form.formy input[type="text"]:focus {
+  width: 70%;
 }
 
 /* Style the submit button */
@@ -45,6 +52,7 @@ form.formy button {
   width: 20%;
   padding: 10px;
   background: #2196f3;
+  min-width: 20px;
   color: white;
   font-size: 17px;
   border: 1px solid grey;
