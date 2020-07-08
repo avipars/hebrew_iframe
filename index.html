@@ -20,7 +20,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="img/site.webmanifest">
-
     <meta name="viewport" content="width=400" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -31,12 +30,21 @@
 </head>
 
 <body>
-    <form id="myForm" class="formy" onkeypress="fnsearch()" onsubmit="javascript:reload()">
-        <input id="input" type="text" placeholder="Search..." name="search" spellcheck="true" autocomplete="on"
-            onkeyup="javascript:fnsearch()">
-        <button type="button" id="button" onclick="javascript:reload()"><i class="fa fa-search"></i></button>
-    </form>
-    </div>
+    <navbar id="navbar">
+        <ul>
+            <li><a href="#contact" data-toggle="modal" data-target="#exampleModalCenter">Useful Links</a></li>
+            <li><a href="https://github.com/avipars/hebrew_iframe" target="_blank">Github Repo</a></li>
+            <li><a href="https://www.unitmeasure.xyz" target="_blank">unitMeasure App</a></li>
+            <form id="myForm" class="formy" onkeypress="fnsearch()" onsubmit="javascript:reload()" style="float:right">
+                <input id="input" type="text" placeholder="Search..." name="search" spellcheck="true" autocomplete="on"
+                    aria-label="Search" onkeyup="javascript:fnsearch()">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="button"
+                    onclick="javascript:reload()"><i class="fa fa-search"></i></button>
+            </form>
+        </ul>
+    </navbar>
+
+
     <div id="content">
         <div class="thumbnail" id="thumbnail1">
             <iframe id="frame1" src="https://context.reverso.net/translation/hebrew-english" frameborder="0"
@@ -63,14 +71,6 @@
                     document.write(new Date().getFullYear())
                 </script>. All Rights Reserved.</p>
                 <!-- Copyright -->
-                <ul class="list-inline">
-                    <li class="list-inline-item">
-                        <a href="https://www.unitmeasure.xyz" target="_blank">unitMeasure App</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://github.com/avipars/hebrew_iframe" target="_blank">Github Repo</a>
-                    </li>
-                </ul>
             </div>
     </footer>
     <!-- Footer -->

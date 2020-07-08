@@ -12,11 +12,11 @@ body {
 }
 
 footer {
-  height: 10px;
+  height: 20px;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky+.content {
+.sticky + .content {
   padding-top: 60px;
 }
 
@@ -30,12 +30,12 @@ footer {
 }
 
 /* Style the search field */
-form.formy input[type=text] {
+form.formy input[type="text"] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
   float: left;
-  width: 80%;
+  width: 70%;
   background: #f1f1f1;
 }
 
@@ -44,7 +44,7 @@ form.formy button {
   float: left;
   width: 20%;
   padding: 10px;
-  background: #2196F3;
+  background: #2196f3;
   color: white;
   font-size: 17px;
   border: 1px solid grey;
@@ -62,4 +62,37 @@ form.formy::after {
   content: "";
   clear: both;
   display: table;
+}
+
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0b7dda;
 }
