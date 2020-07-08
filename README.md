@@ -1,4 +1,4 @@
-# hebrew_iframe
+# LearnHebrew Translate
 
 Live site: https://avipars.github.io/hebrew_iframe/index.html
 
