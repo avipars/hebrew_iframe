@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://avipars.github.io/hebrew_iframe/sitemap.xml
