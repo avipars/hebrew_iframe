@@ -3,6 +3,10 @@
 - [Our site](https://avipars.github.io/hebrew_iframe/index.html)
 
   Combined search of Morfix and Reverso Context HebrewEnglish Dictionary
+  
+- [Hadshon](https://hadshon.edu.gov.il/)
+
+  חדשות בעברית קלה
 
 - [Duolingo](https://www.duolingo.com/course/he/en/LearnHebrew)
 
