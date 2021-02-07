@@ -7,7 +7,7 @@ function reload() {
     document.getElementById("frame2").src =
       "https://www.morfix.co.il/" + argument;
 
-    copyToClipboard(argument);
+    // copyToClipboard(argument);
     return true;
   } else {
     alert("Please enter text");
