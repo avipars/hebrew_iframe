@@ -6,6 +6,8 @@ function reload() {
       "https://context.reverso.net/translation/hebrew-english/" + argument;
     document.getElementById("frame2").src =
       "https://www.morfix.co.il/" + argument;
+
+    copyToClipboard(argument);
     return true;
   } else {
     alert("Please enter text");
@@ -53,27 +55,28 @@ function myFunction() {
   }
 }
 
-
 function copyToClipboard(text) {
   if (window.clipboardData && window.clipboardData.setData) {
-      // IE specific code path to prevent textarea being shown while dialog is visible.
-      return clipboardData.setData("Text", text); 
-
-  } else if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
-      var textarea = document.createElement("textarea");
-      textarea.textContent = text;
-      textarea.style.position = "fixed";  // Prevent scrolling to bottom of page in MS Edge.
-      document.body.appendChild(textarea);
-      textarea.select();
-      try {
-          return document.execCommand("copy");  // Security exception may be thrown by some browsers.
-      } catch (ex) {
-          console.warn("Copy to clipboard failed.", ex);
-          return false;
-      } finally {
-          document.body.removeChild(textarea);
-      }
+    // IE specific code path to prevent textarea being shown while dialog is visible.
+    return clipboardData.setData("Text", text);
+  } else if (
+    document.queryCommandSupported &&
+    document.queryCommandSupported("copy")
+  ) {
+    var textarea = document.createElement("textarea");
+    textarea.textContent = text;
+    textarea.style.position = "fixed"; // Prevent scrolling to bottom of page in MS Edge.
+    document.body.appendChild(textarea);
+    textarea.select();
+    try {
+      return document.execCommand("copy"); // Security exception may be thrown by some browsers.
+    } catch (ex) {
+      console.warn("Copy to clipboard failed.", ex);
+      return false;
+    } finally {
+      document.body.removeChild(textarea);
+    }
   }
-}   
+}
 
-copyToClipboard('hello'); //hello
+// copyToClipboard('hello'); //hello
