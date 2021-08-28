@@ -24,10 +24,6 @@
 
   Online and Free Hebrew Course
 
-- [Hebrew Language Keyboard Stickers](https://www.amazon.com/s/ref=as_li_ss_tl?k=hebrew+keyboard+stickerts&dc&ref=a9_asc_1&linkCode=ll2&tag=aviparshan20&linkId=8b62928a6261136d2695cc4e6aff0529&language=en_US)
-
-  Buy hebrew keyboard stickers and support the project (through the affiliate link, final price is the same for you)
-
 - [YAEL Test Resources Group](https://www.facebook.com/groups/yaeltest/)
 
   Hebrew comprehension test study group
