@@ -10,3 +10,6 @@
 | ביטוי זמן          | Time expressions | מתארות פרק זמן מסויים ,תדירות. עוזרות לנו להבין באיזה זמן מתואר המשפט. | Last Friday night, this year, next week, yet |                                                                                                                      |
 | מילת יחס           | Preposition      | מילות יחס שמתארות את החיבור בין שם עצם לבין מילה אחרת                  | to, at, after, on, but, in                   |                                                                                                                      |
 | מילה נרדפת         | Synonym          |                                                                        |                                              |                                                                                                                      |
+
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)

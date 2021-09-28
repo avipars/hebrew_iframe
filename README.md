@@ -16,4 +16,4 @@ Feel free to open an issue and make a pull request with new features.
 And your support will help push this project further -> 
 
 
-<a href="https://www.buymeacoffee.com/aviparshan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" style="height: 10px !important;width: 80px !important;" ></a>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)

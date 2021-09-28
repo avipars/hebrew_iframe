@@ -52,3 +52,4 @@ Consider joining our deals group to save money in Israel!
 - [Best Deals in Israel](https://www.aviparshan.com/israeldeals/index.html)
 
   
+  [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)
