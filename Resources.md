@@ -46,4 +46,9 @@
 
 - [Snopi](http://www.snopi.com/index.aspx)
 
+
+Consider joining our deals group to save money in Israel! 
+
+- [Best Deals in Israel](https://www.aviparshan.com/israeldeals/index.html)
+
   
