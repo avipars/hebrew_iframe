@@ -9,9 +9,9 @@ Feel free to open an issue and make a pull request with new features.
 
 ![image](https://user-images.githubusercontent.com/5733247/107147722-42948400-6958-11eb-8009-4f79fc61694c.png)
 
-[Resources](https://github.com/avipars/hebrew_iframe/blob/master/Resources.md)
+[Resources](https://avipars.github.io/hebrew_iframe/Resources.html)
 
-[Parts of Speech](https://github.com/avipars/hebrew_iframe/blob/master/parts_of_speech.md)
+[Parts of Speech](https://avipars.github.io/hebrew_iframe/parts_of_speech.html)
 
 And your support will help push this project further -> 
 
