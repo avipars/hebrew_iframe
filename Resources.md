@@ -16,7 +16,7 @@
 
   Combined search of Morfix and Reverso Context Hebrew to English Dictionary
   
-- [Parts of speech](https://github.com/avipars/hebrew_iframe/blob/master/parts_of_speech.md)
+- [Parts of speech](https://github.com/avipars/hebrew_iframe/blob/master/parts_of_speech.html)
 
   Parts of speech in the hebrew language
 
