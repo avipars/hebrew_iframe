@@ -24,6 +24,8 @@
     <script src="code/code.js" type="text/javascript"></script>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
+
 </head>
 
 <body>
@@ -51,7 +53,7 @@
             <iframe id="frame1" class="iframe" src="https://context.reverso.net/translation/hebrew-english" frameborder="0" scrolling="no" height="950px" width="50%" align="left"> </iframe>
         </div>
         <div class="thumbnail" id="thumbnail2">
-            <iframe id="frame2" class="iframe" src="https://www.morfix.co.il/" frameborder="0" scrolling="no" height="950px" width="50%" align="right"  target="_top">
+            <iframe id="frame2" is="x-frame-bypass" class="iframe" src="https://www.morfix.co.il/" frameborder="0" scrolling="no" height="950px" width="50%" align="right"  target="_top">
             </iframe>
         </div>
     </div>
