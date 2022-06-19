@@ -13,3 +13,6 @@
 
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J81LRFO)
+
+<script data-goatcounter="https://avigit.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
