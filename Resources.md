@@ -9,7 +9,15 @@
 - [Kan](https://www.youtube.com/c/KAN11NEWS/videos)
 
   Israeli News 
-  
+
+### Fun
+
+- [Hebrew Wordle](https://www.haaretz.co.il/riddles/ty-page/haaretz-wordle)
+
+- [Duolingo](https://www.duolingo.com/course/he/en/LearnHebrew)
+
+  Online and Free Hebrew Course
+
 ### General Aid
 
 - [Our site](https://avipars.github.io/hebrew_iframe/index.html)
@@ -19,10 +27,6 @@
 - [Parts of speech](https://github.com/avipars/hebrew_iframe/blob/master/parts_of_speech.html)
 
   Parts of speech in the hebrew language
-
-- [Duolingo](https://www.duolingo.com/course/he/en/LearnHebrew)
-
-  Online and Free Hebrew Course
 
 - [YAEL Test Resources Group](https://www.facebook.com/groups/yaeltest/)
 
