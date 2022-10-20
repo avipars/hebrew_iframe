@@ -2,7 +2,9 @@
 
 ### Media
 
-- [Hadshon](https://hadshon.edu.gov.il/)
+- [Hadshon](http://hadshon.edu.gov.il/)
+
+Access their archives of hebrew news which is easy to learn!
 
   חדשות בעברית קלה
   
